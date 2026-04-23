@@ -15,5 +15,10 @@ func main() {
 	for i := range 10 {
 		fmt.Println("Range is:", i)
 	}
+k := 1
 
+for k < 10 {
+	fmt.Print(k)
+	k++
+}
 }
